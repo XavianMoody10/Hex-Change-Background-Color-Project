@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#background-color {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#background-color p {
+  font-size: 5rem;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+#background-color button {
+  font-size: 2rem;
+  border: 3px solid black;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+#background-color,
+#background-color button {
+  background-color: #6a7cca;
+}
